@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="bg-light py-2">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand text-primary me-5" href="#">LFWF Academy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Blog</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="slider">
+      <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://i.ibb.co/dkcP0vP/landscape.jpg" class="d-block w-100" alt="...">
+            <div style="margin-bottom:230px;" class="carousel-caption d-none d-md-block text-white">
+              <h3>First slide label 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://i.ibb.co/7pvkH37/lake.jpg" class="d-block w-100" alt="...">
+            <div style="margin-bottom:230px;" class="carousel-caption d-none d-md-block text-white">
+              <h3>Second slide label 2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ibb.co/dkcP0vP/landscape.jpg" class="d-block w-100" alt="...">
+            <div style="margin-bottom:230px;" class="carousel-caption d-none d-md-block text-white">
+              <h3>Third slide label 3</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+    </section>
+    <!-- blog section -->
+    <section class="blog mt-5 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <img class="img-thumbnail" src="https://i.ibb.co/H2Yb810/Portrait-of-smiling-handsome-man-in-blue-t-shirt-standing-with-crossed-arms-isolated-on-grey-backgro.jpg" alt="">
+          </div>
+          <div class="col-7">
+            <figure>
+              <blockquote class="blockquote">
+                <h2>BLOCKQUOTE USED</h2>
+                <p>A well-known quote, contained in a blockquote element. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis culpa nostrum officia voluptates molestias nam autem in? Pariatur, fugit consectetur?</p>
+                <P class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi aperiam repellendus quae sed dolorem facere, accusamus ipsam et molestias nam asperiores quam,Lorem ipsum, dolor sit amet consectetur adipisicing elit. voluptate hic.</P>
+                
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                LFWF <cite title="Source Title">academy</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section style="background-color: #f8f9fa;" class="table">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-7">
+            <h4 class="text-capitalize text-primary mb-4">bootstrap 5 table</h4>
+            <table class="table table-hover text-center text-capitalize table-striped table-bordered">
+              <thead>
+                <tr class="table-dark">
+                  <th scope="col">No.</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Class</th>
+                  <th scope="col">Roll</th>
+                  <th scope="col">Section</th>
+                  <th scope="col">Address</th>
+                  <th scope="col">Contact</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-primary">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-secondary">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-success">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-danger">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-info">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-warning">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-primary">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-secondary">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+                <tr class="table-success">
+                  <td>1</td>
+                  <td>shahid</td>
+                  <td>ten</td>
+                  <td>15</td>
+                  <td>a</td>
+                  <td>dhaka</td>
+                  <td>+88001642565</td>
+                </tr>
+
+              </tbody>
+            </table>
+<!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+              </button>
+
+  <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-5">
+            <div class="container">
+              <h4 class="text-primary ps-5 mb-4">bootstrap 5 form</h4>
+              <form  class="ps-5" action="#">
+                <div class="row">
+                  <div class="col-6">
+                    <label class="form-label">First name</label>
+                    <input type="text" class="form-control" placeholder="first name">
+                  </div>
+                  <div class="col-6">
+                    <label class="form-label">last name</label>
+                    <input type="text" class="form-control" placeholder="last name">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col-12">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                 <div class="col-12">
+                  <label class="form-label">message</label>
+                  <textarea class="form-control" name="#" id="" rows="3"></textarea>
+                 </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col-12">
+                    <label class="form-label">Email</label>
+                    <input type="file" class="form-control">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col-12">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>select your country</option>
+                      <option value="1">bangladesh</option>
+                      <option value="2">india</option>
+                      <option value="3">turkey</option>
+                    </select>
+                  </div>
+                </div><br>
+                  <label for="" class="form-label"> choose your course</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Web Design
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Web Development
+                  </label>
+                </div> <br>
+                <button class="btn btn-success px-4" type="submit"> submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <hr>
+
+    <!-- table over -->
+   <section class="blog mb-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+            <h5 class="text-center mb-5">bootstrap card and progress bar</h5>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-4">
+
+          <div class="card text-center">
+            <div class="card-header">
+              this is header
+            </div>
+            <div class="card-body">
+              <h6 class="text-start">card title</h6>
+              <div class="card">
+                <ul class="list-group list-group-flush text-start">
+                  <li class="list-group-item">this is card list</li>
+                  <li class="list-group-item">this is card list</li>
+                  <li class="list-group-item">this is card list</li>
+                  <li class="list-group-item">this is card list</li>
+                  <li class="list-group-item">this is card list</li>
+                </ul>
+               </div>
+                 <p class="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti vero distinctio illo at eveniet. Perferendis, velit.</p>
+                 <div class="card-body p-0 text-start">
+                 <a href="#" class="card-link">Card link</a>
+                 <a href="#" class="card-link">Another link</a> <br>
+                 <div class="btn btn-success mt-2">read more</div>
+               </div>
+            </div>
+            <div class="card-footer">
+              this is footer
+            </div>
+          </div>
+
+         </div>
+         <div class="col-4">
+
+          <label for="" class="form-label mt-5">HTML</label>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+          <label for="" class="form-label mt-1">CSS</label>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+          <label for="" class="form-label mt-1">Js</label>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+          <label for="" class="form-label mt-1">Wordpress</label>
+          <div class="progress mb-4">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+          <h4>text-truncate bootstrap class used here</h3>
+          <p class="text-truncate mt-3 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus modi ut eligendi voluptatem ipsum mollitia!</p>
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
+          
+
+
+         </div>
+
+         <div class="col-4">
+          <div class="card text-center">
+
+            <div class="card-header">
+              this is header
+            </div>
+
+            <div class="card-body">
+            
+              <div class="card">
+               <img src="https://i.ibb.co/HCzDNZz/grapefruit-slice-332-332.jpg" alt="">
+               </div>
+                 <p class="text-start mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti vero distinctio illo at eveniet. Perferendis, velit.</p>
+                 
+            </div>
+
+            <div class="card-footer">
+              this is footer
+            </div>
+
+          </div>
+         </div>
+       </div>
+     </div>
+    </section>
+    <hr>
+
+
+    <section class="promotion py-5 " style="background-color: #f8f9fa;">
+     <div class="container">
+       <h4 class="text-center text-success py-3">stretcher-link Bootstrap class used</h4>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="https://i.ibb.co/3sNgg61/blog-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="https://i.ibb.co/vPrCmf9/blog-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="https://i.ibb.co/8sBQyc9/blog-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+     </div>
+    </section>
+    <section class="py-3">
+      <div class="container ">
+        <div class="row">
+          <div class="col-2 offset-5" >
+            <div class="page text-center">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination text-center">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="text-light text-center bg-black py-4">&copy; All Right Recerved Design by LFWF Academy</p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
